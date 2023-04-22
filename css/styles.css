@@ -178,7 +178,10 @@ address {
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0;
-
+    background-image: url(/images/people-office\ 1\ \(sqoosh\).jpg);
+    Fill Color Style: GREY;
+    Fill: Solid;
+    rgba(46, 47, 66, 0.7)
 }
 
 /*h1*/
@@ -328,6 +331,14 @@ address {
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
 
+}
+
+.hero_main_page-dreamteam {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0;
 }
 
 .text-main_page-dreamteam {
