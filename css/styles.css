@@ -6,6 +6,8 @@
     --span_studio-color-2e2f42: #2e2f42;
     --mail-color-434455: #434455;
     --button-All-f4f4fdl: #F4F4FD;
+    --section-five: #8e8f99;
+
 }
 
 
@@ -45,6 +47,9 @@ img {
 /*header main-page*/
 .header-main-page {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -181,6 +186,9 @@ address {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url("../images/peopleoffice.jpg");
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -245,6 +253,16 @@ address {
 
 .list-paragraph {
     width: calc((100% - 72px) / 4);
+}
+
+.container-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 
 }
 
@@ -317,6 +335,12 @@ address {
     background-color: #F4F4FD;
 }
 
+.container-section-fourth {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 .list_main_page {
     margin-top: 0;
 }
@@ -330,6 +354,8 @@ address {
 .container-dreamteam {
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 
@@ -353,8 +379,54 @@ address {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+/***************** SECTION 5 ********************/
+.five-section {}
+
+.customers {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--span_studio-color-2e2f42);
+    margin-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.first-list-costumers {
+    width: calc(100% - 120px) / 6;
+    height: 88px;
+}
+
+.link-section-five {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--section-five);
+}
+
+.link-section-five:hover {
+    border-color: #404BBF;
+    color: #404bbf;
+
+
+}
+
+.link-section-five:focus {
+    border-color: ;
+}
 
 
 
