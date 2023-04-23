@@ -7,6 +7,8 @@
     --mail-color-434455: #434455;
     --button-All-f4f4fdl: #F4F4FD;
     --section-five-8e8f99: #8e8f99;
+    --section-four-404bbf: #404bbf;
+
 
 }
 
@@ -186,6 +188,7 @@ address {
         url("../images/peopleoffice.jpg");
     max-width: 1440px;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -255,6 +258,7 @@ address {
 }
 
 .container-hero {
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 112px;
@@ -388,6 +392,27 @@ address {
     justify-content: center;
     gap: 24px;
 
+}
+
+.social-list {
+    width: 40px;
+    height: 40px;
+
+}
+
+.link-social {
+    width: 100%;
+    height: 100%;
+    background-color: var(--header_studio-color-4d5ae5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-social:hover,
+.link-social:focus {
+    background-color: var(--section-four-404bbf);
 }
 
 /***************** SECTION 5 ********************/
