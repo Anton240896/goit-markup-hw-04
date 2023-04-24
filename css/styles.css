@@ -397,7 +397,6 @@ address {
 .social-list {
     width: 40px;
     height: 40px;
-
 }
 
 .link-social {
@@ -439,6 +438,7 @@ address {
 .first-list-costumers {
     width: calc((100% - 120px) / 6);
     height: 88px;
+    list-style: none;
 }
 
 .link-section-five {
@@ -469,6 +469,52 @@ address {
 
 /************* FOOTER *************/
 
+/******************* SOCIAL ***********************/
+/*p social-media*/
+.social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color-main_page-ffffff);
+    margin-bottom: 16px;
+}
+
+/*ul*/
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+/*li*/
+.social-list {
+    width: 40px;
+    height: 40px;
+    list-style: none;
+
+}
+
+/*a link*/
+.link-social {
+    width: 100%;
+    height: 100%;
+    background-color: var(--header_studio-color-4d5ae5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.link_social:hover,
+.link_social:focus {
+    background-color: #31d0aa;
+}
+
+
+/*************WEBSTUDIO*********************/
 .footer_studio {
     background-color: var(--span_studio-color-2e2f42);
     padding-top: 100px;
@@ -482,49 +528,21 @@ address {
     align-items: baseline;
 }
 
+.footer_logo_studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    color: var(--button-All-f4f4fdl);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+
 /*logo-paragraph*/
 .div-logo-paragraph {
     margin-right: 120px;
-}
-
-/*social*/
-.social-media {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--background-color-main_page-ffffff);
-    margin-bottom: 16px;
-}
-
-/*ul*/
-.social-list {
-    display: flex;
-    gap: 16px;
-
-}
-
-/*li*/
-.list-social {
-    width: 40px;
-    height: 40px;
-}
-
-/*<a>-link*/
-.link_social {
-    width: 100%;
-    height: 100%;
-    background-color: var(--header_studio-color-4d5ae5);
-    border-radius: 50%;
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-}
-
-.link_social:hover,
-.link_social:focus {
-    background-color: #31d0aa;
 }
 
 .logo_studio-footer {
@@ -538,18 +556,6 @@ address {
     margin-right: 0;
     margin-bottom: 16px;
     display: inline-block;
-
-}
-
-/*************WEBSTUDIO*********************/
-.footer_logo_studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    color: var(--button-All-f4f4fdl);
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 
 }
 
