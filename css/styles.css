@@ -412,7 +412,7 @@ address {
     justify-content: center;
 }
 
-/************************************* SVG ***********************************/
+/* svg-section-4 */
 .icons-social {
     fill: var(--button-All-f4f4fdl);
 }
@@ -423,11 +423,13 @@ address {
 }
 
 /***************** SECTION 5 ********************/
+/*section*/
 .five-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
+/*h2*/
 .customers {
     margin: 0;
     font-size: 36px;
@@ -437,18 +439,21 @@ address {
     text-align: center;
 }
 
+/*ul*/
 .customers-list {
     display: flex;
     gap: 24px;
 
 }
 
+/*li*/
 .first-list-costumers {
     width: calc((100% - 120px) / 6);
     height: 88px;
     list-style: none;
 }
 
+/*a*/
 .link-section-five {
     width: 100%;
     height: 100%;
@@ -460,15 +465,15 @@ address {
     color: var(--section-five-8e8f99);
 }
 
-.link-section-five:hover,
-.link-section-five:focus {
-    border-color: #404BBF;
-    color: #404bbf;
+/*svg-section-5*/
+.icons-logo {
+    fill: currentColor;
 }
 
-
-.link-section-five:focus {
+/*a*/
+.link-section-five:hover .link-section-five:focus {
     border-color: #404BBF;
+    color: #404bbf;
 }
 
 
