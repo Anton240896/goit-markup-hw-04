@@ -334,6 +334,7 @@ address {
     background-color: #F4F4FD;
 }
 
+/*div*/
 .container-section-fourth {
     justify-content: center;
     gap: 24px;
@@ -356,6 +357,7 @@ address {
     gap: 24px;
 }
 
+/*div*/
 .container-dreamteam {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -363,7 +365,7 @@ address {
 
 }
 
-.hero_main_page-dreamteam {
+.hero_main_page {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -378,7 +380,7 @@ address {
     margin: 0;
 }
 
-
+/*li*/
 .dreamteam_main_page {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
