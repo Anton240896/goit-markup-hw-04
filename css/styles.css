@@ -331,19 +331,14 @@ address {
 }
 
 /****************** SECTION 4 *****************/
+
 .section_team {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #F4F4FD;
 }
 
-/*div*/
-.container-section-fourth {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
+/*our team*/
 .list_main_page-dreamteam {
     font-size: 36px;
     color: var(--span_studio-color-2e2f42);
@@ -355,33 +350,11 @@ address {
     margin-bottom: 72px;
 }
 
-
-.section-fourth-list {
-    display: flex;
-    gap: 24px;
-}
-
 /*div*/
-.container-dreamteam {
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-
-}
-
-.hero_main_page {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin: 0;
-}
-
-.text-main_page-dreamteam {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin: 0;
+.container-section-fourth {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 /*li*/
@@ -394,6 +367,36 @@ address {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+/*div*/
+.container-dreamteam {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/*h3*/
+.hero_main_page {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0;
+}
+
+/*p*/
+.text-main_page-dreamteam {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0;
+}
+
+/*ul*/
+.section-fourth-list {
+    display: flex;
+    gap: 24px;
+}
+
+/***********social************/
 /*ul*/
 .social-media-list {
     display: flex;
