@@ -353,7 +353,6 @@ address {
 
 /*div*/
 .container-section-fourth {
-    display: flex;
     justify-content: center;
     gap: 24px;
 }
