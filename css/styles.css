@@ -262,6 +262,8 @@ address {
 
 .container-hero {
     align-items: center;
+    width: 264px;
+    height: 112px;
     justify-content: center;
     background-color: #F4F4FD;
     border-radius: 4px;
@@ -278,6 +280,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-top: 0;
+    margin-bottom: 8px;
 
 }
 
