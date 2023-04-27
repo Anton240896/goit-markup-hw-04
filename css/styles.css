@@ -185,7 +185,7 @@ address {
     background-color: var(--span_studio-color-2e2f42);
     padding-top: 188px;
     padding-bottom: 188px;
-    margin: 0;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url("../images/peopleoffice.jpg");
@@ -261,13 +261,10 @@ address {
 }
 
 .container-hero {
-    display: flex;
     align-items: center;
     justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
+    background-color: #F4F4FD;
     border-radius: 4px;
-    margin-bottom: 8px;
 
 }
 
@@ -276,11 +273,10 @@ address {
 .hero_main_page {
     font-weight: 500;
     color: var(--span_studio-color-2e2f42);
-    text-align: left;
     font-size: 20px;
+    text-align: left;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
     margin-top: 0;
 
 }
@@ -374,11 +370,11 @@ address {
 }
 
 /*h3*/
-.hero_main_page {
+.hero_main_page-dreamteam {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin: 0;
+    margin-bottom: 8px;
 }
 
 /*p*/
@@ -387,7 +383,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin: 0;
+    margin-bottom: 8px;
 }
 
 /*ul*/
@@ -419,6 +415,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 32px;
 }
 
 
@@ -593,6 +590,7 @@ address {
 }
 
 .footer-paragraph {
+    margin-top: 0;
     font-size: 16px;
     color: #F4F4FD;
     line-height: 1.5;
